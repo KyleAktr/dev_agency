@@ -1,0 +1,58 @@
+.hero h2,
+.hero p {
+  color: #fff;
+}
+
+#light {
+  background-color: #fff;
+  color: black;
+}
+
+#dark {
+  background-color: #000;
+  color: white;
+}
+
+.nav-work {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 20px;
+  background-color: #000;
+  padding: 15px;
+  margin: -5px;
+}
+
+.nav-work li {
+  display: inline-block;
+  list-style: none;
+  height: 60px;
+  line-height: 60px;
+  padding: 0 40px;
+  color: azure;
+}
+
+.nav-work li a {
+  color: azure;
+  text-decoration: none;
+}
+
+.nav-work li a:hover {
+  color: #fff;
+}
+
+.nav-work li a:active {
+  color: #fff;
+}
+
+.nav-work li a:visited {
+  color: #fff;
+}
+
+.nav-work li a:link {
+  color: #fff;
+}
+
+.buttonqqh{
+  position: absolute;
+  right: 0;
+}

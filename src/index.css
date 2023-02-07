@@ -1,0 +1,67 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+.App{
+  height: 100vh;
+}
+  
+  
+  
+  .nav-work {
+    background: #d02323;
+    height: 60px;
+    margin: 0;
+  
+  }
+  
+  .nav-work li{
+    display: inline-block;
+    list-style: none;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 40px;
+    color: azure;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #hero1{
+    background:url(https://www.district-immo.com/wp-content/uploads/2019/11/agence_champs_de_mars.jpg);
+     background-size:cover;
+     background-position:center center;
+     background-attachment:fixed;
+   }
+  
+   .hero, .content{
+     text-align:center; 
+     position:relative;
+     width: 100%;
+   }
+   
+   .inner{
+     min-height:100vh;
+     position: relative;
+   }
+   
+   .hero .inner{
+     background: rgba(0,0,0,0.7) url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAYAAACddGYaAAAAD0lEQVQIW2NkQABjRmQOAAM+AGkQsDBSAAAAAElFTkSuQmCC) repeat;}
+   
+   
+   .copy{
+     position:absolute; 
+     top:50%; 
+     height:10em; 
+     margin-top:-5em; 
+     width:100%;
+   }
+   
+   .hero h1, .hero p{ 
+     color:#fff;
+   }
